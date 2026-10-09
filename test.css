@@ -1,0 +1,142 @@
+body {
+    font-family: "Yu Gothic";
+    background-color: #faf8f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main, section, header, footer, aside, nav {
+    padding: 20px;
+}
+
+header {
+    background-color: #4acf;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: #4acf; 
+    padding: 10px 20px;  
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: #333;
+    font-weight: bold;
+}
+
+section h2 {
+    border-bottom: 2px solid #4acf;
+    padding-top: 5px;
+    margin-top: 30px;
+    text-align: center;
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto;
+    color: #4acf;
+}
+
+#section1 p {
+    text-align: center;
+}
+
+#section1 img {
+    display: block;
+    margin: 20px auto;
+    width: 200px; 
+    height: 70px;  
+    border-radius: 8px;          
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 140px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; 
+}
+
+.menu-item:hover {             
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.menu-item img {
+    width: 70%;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+form{
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #faf8f5;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3ca3c0;
+}
+
+footer {
+    background-color: #3ca3c0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
